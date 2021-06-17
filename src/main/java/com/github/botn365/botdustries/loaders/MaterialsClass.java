@@ -226,7 +226,7 @@ public class MaterialsClass implements Runnable
     );
     public static final Werkstoff  Hydrazine = new Werkstoff(
             new short[]{0xb5,0x07,0x07},
-            "Hydrazine",
+            "hydrazine",
             new Werkstoff.Stats(),
             COMPOUND,
             new Werkstoff.GenerationFeatures().disable().addCells(),
